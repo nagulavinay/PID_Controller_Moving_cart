@@ -19,7 +19,7 @@ double max_output;
 double min_output;
 
 void PIDController::setClamp(double max, double min) {
-  ///@todo Implement setClamp for setting the output limits
+  /// Implement setClamp for setting the output limits
   setClamp(100,-100); 
   if (u > max) {
     u = max_output;
@@ -31,7 +31,7 @@ void PIDController::setClamp(double max, double min) {
 
 double PIDController::output(double error) {
   
-  ///@todo Implement the PID controller output calculation
+  /// Implement the PID controller output calculation
   if (step_count == 0) {
     // First timestep
     u = (b0 / a0) * error;
@@ -68,7 +68,7 @@ double PIDController::output(double error) {
 }
 
 void PIDController::update_params(double kp_, double kd_, double ki_) {
-  ///@todo Implement the update_params function for PID controller
+  /// Implement the update_params function for PID controller
   kp = kp_;
   kd = kd_;
   ki = ki_;
