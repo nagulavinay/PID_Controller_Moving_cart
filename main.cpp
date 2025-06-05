@@ -1,16 +1,3 @@
-/**
- * @file main.cpp
- * @brief Main entry point for the inverted pendulum simulation.
- *
- * This file contains the main function, which serves as the entry point
- * for the simulation of an inverted pendulum system. It initializes simulator
- * object, and communication server, and starts the simulation and communication
- * server threads.
- *
- * @author Vinay Nagula
- * @date 06-June-2024
- */
-
 #include "controller.h"
 #include "server.h"
 #include "simulator.h"
