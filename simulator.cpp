@@ -1,16 +1,3 @@
-/**
- * @file simulator.cpp
- * @brief Implementation file for the Simulator class.
- *
- * This file contains the implementation of the Simulator class, which simulates
- * the behavior of an inverted pendulum system. It includes the definition of
- * member functions for running the simulation, updating simulation parameters,
- * and resetting the simulator to its initial state.
- *
- * @author Vinay Nagula
- * @date 05-June-2024
- */
-
 #include "simulator.h"
 #include "controller.h"
 #include <chrono>
