@@ -15,7 +15,7 @@ Simulate the effects of different reference angles, as well as delay and jitter 
 Analyze the performance, stability, and challenges of PID control for dynamic systems.
 
 # Significance
-Stability in control systems is crucial for predictable, accurate, and safe operation—especially in robotics, automation, and industrial environments. PID controllers remain the industry standard for such applications due to their simplicity and effectiveness.
+Stability in control systems is crucial for predictable, accurate, and safe operation especially in robotics, automation, and industrial environments. PID controllers remain the industry standard for such applications due to their simplicity and effectiveness.
 
 # Methodology
 Sensors: Simulated sensors provide the pendulum angle and cart position.
