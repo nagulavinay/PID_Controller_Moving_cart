@@ -1,15 +1,3 @@
-/**
- * @file server.cpp
- * @brief Implementation file for the CommServer class.
- *
- * This file contains the implementation of the methods declared in the server.h
- * header file. It provides the functionality for handling incoming HTTP
- * requests and managing communication with the inverted pendulum simulation.
- *
- * @author Vinay Nagula
- * @date 05-June-2024
- */
-
 #include "server.h"
 
 void CommServer::start_server() {
