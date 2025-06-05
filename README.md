@@ -1,9 +1,9 @@
 # PID_Controller_Moving_cart
 
-Overview
+# Overview
 This repository contains the implementation and simulation of a PID controller for stabilizing an inverted pendulum system, developed as part of the Embedded Systems Laboratory at our university. The code is written in C++ and simulates real-world control challenges such as delay and jitter in sensor-to-controller communication.
 
-Objectives
+# Objectives
 Understand the dynamics and instability of the inverted pendulum system.
 
 Implement a discrete-time Proportional-Integral-Derivative (PID) controller in C++.
@@ -14,10 +14,10 @@ Simulate the effects of different reference angles, as well as delay and jitter 
 
 Analyze the performance, stability, and challenges of PID control for dynamic systems.
 
-Significance
+# Significance
 Stability in control systems is crucial for predictable, accurate, and safe operation—especially in robotics, automation, and industrial environments. PID controllers remain the industry standard for such applications due to their simplicity and effectiveness.
 
-Methodology
+# Methodology
 Sensors: Simulated sensors provide the pendulum angle and cart position.
 
 Controller: The PID controller calculates the corrective force based on the error between the desired and actual state.
@@ -26,7 +26,7 @@ Discrete-Time Implementation: The algorithm is tailored for digital simulation w
 
 Delay & Jitter Simulation: Communication delays and timing jitter are introduced in the simulation to mimic real-world conditions and test controller robustness.
 
-Repository Structure
+# Repository Structure
 Controller.h & Controller.cpp:
 Contains the PID controller class and logic, including parameter initialization, discrete-time PID output calculation, and output clamping.
 
@@ -39,7 +39,7 @@ Project documentation and instructions.
 Other files:
 Additional configuration files and code as required by the assignment.
 
-Key Features
+# Key Features
 Modular C++ code with clear separation of simulation and controller logic.
 
 Functions to update controller parameters and output limits at runtime.
@@ -48,7 +48,7 @@ Simulation of delay and jitter in the control loop, with wraparound buffer manag
 
 Results and observations discussed in detail in the lab report.
 
-Results
+# Results
 PID gains achieved for best performance:
 
 Kp: 6171.08
