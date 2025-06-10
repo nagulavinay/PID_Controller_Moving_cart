@@ -33,20 +33,12 @@ Contains the PID controller class and logic, including parameter initialization,
 Simulator.cpp:
 Handles the simulation of the inverted pendulum, including the introduction of delay and jitter in the sensor data, as well as the main update loop.
 
-README.md:
-Project documentation and instructions.
-
-Other files:
-Additional configuration files and code as required by the assignment.
-
 # Key Features
 Modular C++ code with clear separation of simulation and controller logic.
 
 Functions to update controller parameters and output limits at runtime.
 
 Simulation of delay and jitter in the control loop, with wraparound buffer management.
-
-Results and observations discussed in detail in the lab report.
 
 # Results
 PID gains achieved for best performance:
